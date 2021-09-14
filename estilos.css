@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel.pointer-event {
+  height: 0;
+}
+
+/* .imagenFondoIndex {
+   background-image: url(img/Version2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+ } */
+.titulo .nombre {
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+header #btn-menu {
+  display: none;
+}
+
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 1rem;
+}
+
+.secciones ul {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  list-style: none;
+  display: flex;
+}
+
+.secciones ul li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.secciones ul li a {
+  display: block;
+  font-family: 'Shrikhand', cursive;
+  text-decoration: none;
+  color: #1b1a1a;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+.secciones ul li a:hover {
+  color: #727277;
+}
+
+@media screen and (max-width: 770px) {
+  .titulo .nombre {
+    margin-top: -0.6rem;
+    letter-spacing: 3px;
+  }
+  header label {
+    display: block;
+  }
+  .secciones {
+    outline: 1px solid blue;
+    position: absolute;
+    margin-left: -50%;
+    top: 9%;
+    transition: all 0.5s;
+    background-color: #f7f7f7;
+  }
+  .secciones ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .secciones ul li a {
+    font-size: 12px;
+    padding: 0.2rem;
+    letter-spacing: 1px;
+  }
+  #btn-menu:checked ~ .secciones {
+    margin: 0px;
+    margin-top: -2rem;
+  }
+}
+
+#nav__click {
+  color: #747272;
+}
+
+.secciones {
+  z-index: 20;
+}
+
+.carousel-inner {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+@media screen and (max-width: 770px) {
+  .carousel-inner {
+    margin-top: 15rem;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
