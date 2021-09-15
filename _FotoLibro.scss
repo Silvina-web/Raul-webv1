@@ -1,0 +1,14 @@
+.texto__fotoLibro{
+    outline: 1px solid red;
+    width: 80vw;
+    margin: auto;
+
+    .titulo__fotoLibro{
+         text-align: center;
+         margin-top: 5rem;
+         margin-bottom: 5rem;
+    }
+    p{
+        font-size: 16px;
+    }
+}

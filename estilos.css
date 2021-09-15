@@ -113,6 +113,22 @@
   }
 }
 
+.texto__fotoLibro {
+  outline: 1px solid red;
+  width: 80vw;
+  margin: auto;
+}
+
+.texto__fotoLibro .titulo__fotoLibro {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.texto__fotoLibro p {
+  font-size: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
