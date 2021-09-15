@@ -1,3 +1,118 @@
+.imagenes__fotos1 {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagenes__fotos1 .Caja__foto {
+  position: relative;
+}
+
+.imagenes__fotos1 .Caja__foto img {
+  position: relative;
+  width: 20vw;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px #9e9d9d;
+}
+
+.imagenes__fotos1 .Caja__foto .frase {
+  position: absolute;
+  bottom: 48px;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+  visibility: hidden;
+  background-color: rgba(184, 180, 180, 0.356);
+}
+
+.imagenes__fotos1 .Caja__foto:hover > .frase {
+  visibility: visible;
+  opacity: 1;
+}
+
+.imagenes__fotos1 .Caja__foto .textos h5 {
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* ------------------------ */
+.imagenes__fotos2 {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagenes__fotos2 .Caja__foto {
+  position: relative;
+  /*   overflow: hidden; */
+}
+
+.imagenes__fotos2 .Caja__foto img {
+  position: relative;
+  width: 20vw;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px #9e9d9d;
+}
+
+.imagenes__fotos2 .Caja__foto .frase {
+  position: absolute;
+  bottom: 48px;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+  visibility: hidden;
+  background-color: rgba(224, 218, 218, 0.356);
+}
+
+.imagenes__fotos2 .Caja__foto .frase p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+}
+
+.imagenes__fotos2 .Caja__foto:hover > .frase {
+  visibility: visible;
+  opacity: 1;
+}
+
+.imagenes__fotos2 .Caja__foto .textos h5 {
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 770px) {
+  .imagenes__fotos1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagenes__fotos1 .Caja__foto img {
+    width: 40vw;
+  }
+  .imagenes__fotos1 .Caja__foto h5 {
+    font-size: 15px;
+  }
+  .imagenes__fotos2 {
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagenes__fotos2 .Caja__foto img {
+    width: 40vw;
+  }
+  .imagenes__fotos2 .Caja__foto h5 {
+    font-size: 15px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
