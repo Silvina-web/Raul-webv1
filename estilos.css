@@ -226,14 +226,13 @@ header label {
 }
 
 .slide {
-  /*  margin-top: -1rem; */
   width: 58vw;
   margin: auto;
 }
 
 @media screen and (max-width: 770px) {
   .slide {
-    margin-top: 8rem;
+    margin-top: 13rem;
   }
 }
 
