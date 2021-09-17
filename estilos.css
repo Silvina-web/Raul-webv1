@@ -57,7 +57,7 @@
 
 .imagenes__fotos2 .Caja__foto img {
   position: relative;
-  width: 450px;
+  width: 500px;
   border-radius: 3px;
   box-shadow: 2px 2px 5px #9e9d9d;
 }
@@ -179,7 +179,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .imagenes__fotos4 .Caja__foto {
@@ -189,7 +189,7 @@
 
 .imagenes__fotos4 .Caja__foto img {
   position: relative;
-  width: 450px;
+  width: 550px;
   height: 250px;
   border-radius: 3px;
   box-shadow: 2px 2px 5px #9e9d9d;
