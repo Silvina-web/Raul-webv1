@@ -9,9 +9,9 @@
 }
 
 
-.carousel.pointer-event{
+/* .carousel.pointer-event{
     height: 0;
-}
+} */
 
 /* .imagenFondoIndex {
    background-image: url(img/Version2.jpg);
@@ -94,23 +94,23 @@ header{
 
 
 @media screen and (max-width: 770px) {
-.titulo .nombre{
+              .titulo .nombre{
    margin-top: -0.6rem;
    letter-spacing: 3px;
-}
+              }
 
-header label{
-       display: block;
+               header label{
+                  display: block;
 
       
-   }
+                 }
  
-.secciones{ outline: 1px solid blue;
+.secciones{ 
        position: absolute;
        margin-left: -50%;
        top:9%;
        transition: all 0.5s; 
-       background-color: rgb(247, 247, 247);
+       background-color: rgba(247, 247, 247, 0.301);
        
       
        
@@ -125,7 +125,7 @@ header label{
             
             
                  font-size: 12px;
-                padding: 0.2rem; 
+                padding: 0.1rem; 
                  letter-spacing: 1px;
 
               
@@ -155,15 +155,51 @@ header label{
      z-index: 20;
  }
 
-   .carousel-inner{
-      
-       margin-left: 25%;
-       margin-right: 25%;
 
-       @media screen and (max-width: 770px) {
-           margin-top: 15rem;
+
+.slide{
+   /*  margin-top: -1rem; */
+       width: 58vw;
+       margin: auto;
+       
+       @media screen and (max-width: 770px){
+           margin-top: 8rem;
+       }
+    
+}
+
+
+
+   /* .carousel-inner{
+       outline: 2px solid yellow;
+       
+    
+       margin-left: 27%;
+       margin-right: 20%;  
+
+        @media screen and (max-width: 770px) {
+
+            
+                
+                
+                  
+                       
+                    
+            
+          
+           
+             margin-top: 10rem; 
+           .carousel-item { outline: 2px solid blue;
+           img{
+               outline: 2px solid red;
+               
+               
+           }
        } 
-   }
+   } 
+} */
+   
+
    
 
   
