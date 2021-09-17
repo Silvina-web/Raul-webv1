@@ -1,5 +1,5 @@
 .imagenes__fotos1 {
-  margin-top: 5rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -12,7 +12,8 @@
 
 .imagenes__fotos1 .Caja__foto img {
   position: relative;
-  width: 20vw;
+  /*  width: 27vw; */
+  width: 450px;
   border-radius: 3px;
   box-shadow: 2px 2px 5px #9e9d9d;
 }
@@ -42,7 +43,7 @@
 
 /* ------------------------ */
 .imagenes__fotos2 {
-  margin-top: 5rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -56,7 +57,7 @@
 
 .imagenes__fotos2 .Caja__foto img {
   position: relative;
-  width: 20vw;
+  width: 450px;
   border-radius: 3px;
   box-shadow: 2px 2px 5px #9e9d9d;
 }
