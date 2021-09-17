@@ -47,7 +47,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .imagenes__fotos2 .Caja__foto {
@@ -96,7 +96,7 @@
     align-items: center;
   }
   .imagenes__fotos1 .Caja__foto img {
-    width: 40vw;
+    width: 50vw;
   }
   .imagenes__fotos1 .Caja__foto h5 {
     font-size: 15px;
