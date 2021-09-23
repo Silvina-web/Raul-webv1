@@ -13,7 +13,7 @@
 .imagenes__fotos1 .Caja__foto img {
   position: relative;
   /*  width: 27vw; */
-  width: 560px;
+  width: 29.16vw;
   border-radius: 3px;
   box-shadow: 2px 2px 5px #9e9d9d;
 }
@@ -57,7 +57,7 @@
 
 .imagenes__fotos2 .Caja__foto img {
   position: relative;
-  width: 560px;
+  width: 29.16vw;
   border-radius: 3px;
   box-shadow: 2px 2px 5px #9e9d9d;
 }
