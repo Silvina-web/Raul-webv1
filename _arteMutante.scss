@@ -22,8 +22,16 @@ padding: 1rem;
 
     img{
         border-radius: 10px;
-        box-shadow: 5px 5px 5px gray;
+        box-shadow: 2px 2px 2px rgb(204, 201, 201);
         width: 50vw;
+        transition: all 0.8s;
+
+        &:hover{
+            width: 60vw;
+            transform: translatey(-15px);
+            box-shadow: 8px 8px 5px grey;
+
+        }
     }
 
 }
