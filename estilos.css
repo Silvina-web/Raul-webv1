@@ -106,6 +106,14 @@
   .imagenes__fotos1 .Caja__foto h5 {
     font-size: 15px;
   }
+  .imagenes__fotos1 .Caja__foto .frase {
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+  }
+  .imagenes__fotos1 .Caja__foto .frase p {
+    font-size: 2vw;
+  }
   .imagenes__fotos2 {
     margin-top: 2rem;
     flex-direction: column;
@@ -116,6 +124,14 @@
   }
   .imagenes__fotos2 .Caja__foto h5 {
     font-size: 15px;
+  }
+  .imagenes__fotos2 .Caja__foto .frase {
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+  }
+  .imagenes__fotos2 .Caja__foto .frase p {
+    font-size: 2vw;
   }
 }
 
