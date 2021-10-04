@@ -136,7 +136,7 @@
 }
 
 .texto__fotoLibro {
-  width: 95vw;
+  width: 70vw;
   margin: auto;
 }
 
@@ -148,6 +148,11 @@
 
 .texto__fotoLibro p {
   font-size: 16px;
+}
+
+.video__fotoLibro {
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .arteMutante__texto {
