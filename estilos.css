@@ -147,7 +147,8 @@
 }
 
 .texto__fotoLibro p {
-  font-size: 16px;
+  line-height: 2rem;
+  font-size: 15px;
 }
 
 .video__fotoLibro {
