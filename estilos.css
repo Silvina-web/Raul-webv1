@@ -191,6 +191,25 @@
   box-shadow: 8px 8px 5px grey;
 }
 
+.titulo__hije {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.fotos_hije {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  margin-left: 1rem;
+}
+
+.fotos_hije img {
+  height: 63vh;
+}
+
 * {
   margin: 0;
   padding: 0;
