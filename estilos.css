@@ -198,15 +198,18 @@
 }
 
 .fotos_hije {
-  width: fit-content;
+  /* width: fit-content; */
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-between;
   gap: 1.5rem;
   margin-left: 1rem;
 }
 
 .fotos_hije img {
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #c7c6c3;
   height: 63vh;
 }
 
