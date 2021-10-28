@@ -191,10 +191,15 @@
   box-shadow: 8px 8px 5px grey;
 }
 
-.titulo__hije {
+.fixed-hije {
+  width: 100vw;
+  position: fixed;
+}
+
+.fixed-hije .titulo__hije {
   text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: -1rem;
+  padding-bottom: 1rem;
 }
 
 .fotos_hije {
@@ -203,14 +208,15 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  gap: 1.5rem;
-  margin-left: 1rem;
+  gap: 1rem;
+  margin-left: .7 rem;
 }
 
 .fotos_hije img {
+  margin-top: 14rem;
   border-radius: 3px;
   box-shadow: 2px 2px 5px #8a8787;
-  height: 63vh;
+  height: 75vh;
 }
 
 * {
@@ -229,6 +235,16 @@
    background-position: center center;
    background-attachment: fixed;
  } */
+.titulo {
+  /*  outline: 3px solid red;
+    width: 20vw;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    
+    transform: translate(-50%,-50%); */
+}
+
 .titulo .nombre {
   font-family: 'Shrikhand', cursive;
   text-align: center;
@@ -244,6 +260,16 @@ header label {
   width: 30px;
   height: 30px;
   padding: 1rem;
+}
+
+.secciones {
+  /* outline: 3px solid red;
+    width: 80vw;
+    position: fixed;
+    left:50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 5rem; */
 }
 
 .secciones ul {

@@ -23,12 +23,25 @@
    background-attachment: fixed;
  } */
 
-   .titulo{
+  
+ 
+ 
+ 
+ 
+ .titulo{
+    /*  outline: 3px solid red;
+    width: 20vw;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    
+    transform: translate(-50%,-50%); */
+       
         .nombre{ 
                 font-family: 'Shrikhand', cursive ;
                 text-align: center;
                 margin-top: 2rem;
-       }
+                 }
             }
 
 
@@ -56,6 +69,14 @@ header{
 
 
 .secciones{
+    /* outline: 3px solid red;
+    width: 80vw;
+    position: fixed;
+    left:50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 5rem; */
+
 
 
    
@@ -65,17 +86,22 @@ header{
        list-style: none;
        display: flex;
        
+       
    
 
 
 
-   li{ flex-grow: 1;
+   li{ 
+       
+       flex-grow: 1;
        text-align: center;
 
 
        
 
-       a{  display: block;
+       a{ 
+           
+           display: block;
            font-family:'Shrikhand', cursive ; 
            text-decoration: none;
            color: rgb(27, 26, 26);
@@ -93,12 +119,15 @@ header{
       }
     }
 
+    
+
 
 
 @media screen and (max-width: 770px) {
               .titulo .nombre{
-   margin-top: -0.6rem;
-   letter-spacing: 3px;
+
+                 margin-top: -0.6rem;
+                letter-spacing: 3px;
               }
 
                header label{

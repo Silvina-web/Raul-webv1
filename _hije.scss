@@ -1,28 +1,37 @@
 
 
+.fixed-hije{
+    
+    width: 100vw;
+    position: fixed;
 
 
 .titulo__hije{
+    
     text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
 }
 
 
 
 
 .fotos_hije{
+   
  /* width: fit-content; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-     gap: 1.5rem;
-    margin-left: 1rem; 
+     gap: 1rem;
+    margin-left: .7 rem; 
+    
     img{
+        margin-top: 14rem;
         border-radius: 3px;
         box-shadow: 2px 2px 5px rgb(138, 135, 135);
-        height: 63vh; 
+        height: 75vh; 
     
     }
     
