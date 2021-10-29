@@ -151,7 +151,7 @@
 .texto__fotoLibro p {
   outline: 2px solid brown;
   line-height: 2rem;
-  font-size: 19px;
+  font-size: 15px;
 }
 
 .video__fotoLibro {
