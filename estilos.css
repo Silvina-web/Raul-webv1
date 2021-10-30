@@ -136,30 +136,31 @@
 }
 
 .texto__fotoLibro {
-  outline: 2px solid yellow;
   width: 70vw;
   margin: auto;
 }
 
 .texto__fotoLibro .titulo__fotoLibro {
-  outline: 2px solid red;
   text-align: center;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
 .texto__fotoLibro p {
-  outline: 2px solid brown;
   line-height: 2rem;
   font-size: 15px;
 }
 
-.video__fotoLibro {
-  margin-top: 2rem;
+.texto-solo {
   text-align: center;
 }
 
-.pruebas {
+.texto-solo .masGrande {
+  font-size: 18px;
+}
+
+.video__fotoLibro {
+  margin-top: 2rem;
   text-align: center;
 }
 
