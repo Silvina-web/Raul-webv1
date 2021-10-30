@@ -220,6 +220,12 @@
   height: 75vh;
 }
 
+@media screen and (max-width: 1300px) {
+  .fotos_hije img {
+    height: 65vh;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
