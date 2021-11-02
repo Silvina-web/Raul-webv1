@@ -220,7 +220,7 @@
   height: 75vh;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
   .fotos_hije img {
     height: 65vh;
   }
