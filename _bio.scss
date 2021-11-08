@@ -1,0 +1,31 @@
+
+.conteiner-bio{
+   
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+         .bio-text{
+             width: 25vw;
+         }
+
+
+
+    .bio-img{
+        width: 50vw;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1rem;
+       
+        img{
+            
+            border-radius: 2px;
+            box-shadow: 2px 2px 2px rgb(167, 167, 167);
+        }
+
+        
+    }
+}
