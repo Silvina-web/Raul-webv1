@@ -231,15 +231,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .conteiner-bio .bio-text {
-  width: 25vw;
+  outline: 5px solid #aaaab9;
+  width: 35vw;
 }
 
 .conteiner-bio .bio-img {
-  width: 50vw;
+  outline: 5px solid #9c8888;
+  width: 20vw;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -326,7 +328,7 @@ header label {
 }
 
 .secciones ul li a:hover {
-  color: #727277;
+  color: #ce3232;
 }
 
 @media screen and (max-width: 770px) {
@@ -360,7 +362,7 @@ header label {
 }
 
 #nav__click {
-  color: #747272;
+  color: #ce3232;
 }
 
 .secciones {
