@@ -1,10 +1,10 @@
 
 
 
-.fixed-hije{
+.cabecera-llegamos{
     
     width: 100vw;
-    position: fixed;
+    
 
 
 .titulo__hije{
@@ -16,11 +16,36 @@
 }
 
 
+.conteiner-llegamos{
+    width: 95vw;
+    outline: 3px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+    
+    
+     .texto-llegamos{
+        width: 25vw;
+        margin-top: 20rem;
+    }
 
+    .fotos-llegamos{
+        img{
+            width: 23vw;
+            
+        }
 
-.fotos_hije{
+    }
+
+    .flecha-llegamos{
+        margin-top: 30rem;
+    }
+}
+
+/* .fotos_hije{
    
- /* width: fit-content; */
+ width: fit-content; 
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -41,4 +66,4 @@
     }
     
 }
-}
+} */
