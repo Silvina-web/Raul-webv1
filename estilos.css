@@ -369,17 +369,23 @@
   .conteiner-llegamos {
     outline: 6px solid pink;
     width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
   .conteiner-llegamos .texto-llegamos {
-    outline: 5px solid #470f58;
-    width: 90vw;
+    outline: 5px solid #dd4c95;
+    width: 80vw;
+    height: 50vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3rem;
+    margin-bottom: 17rem;
+  }
+  .conteiner-llegamos .fotos-llegamos {
+    outline: 3px solid green;
   }
   .conteiner-llegamos .fotos-llegamos .img1 {
+    outline: 3px solid red;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
@@ -392,7 +398,7 @@
   .conteiner-llegamos .ventana .texto-ventana {
     outline: 5px solid brown;
     width: 95vw;
-    height: 75vh;
+    height: 70vh;
     text-align: center;
     font-size: 13px;
     margin-right: auto;

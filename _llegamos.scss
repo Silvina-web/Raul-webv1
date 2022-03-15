@@ -132,24 +132,30 @@
     @media screen and (max-width: 770px){
         outline: 6px solid pink;
         width: 100vw;
-        
-        
+        height: 100vh;
         display: flex;
         flex-direction: column;
+        
 
         .texto-llegamos{
-            outline: 5px solid rgb(71, 15, 88);
-            width: 90vw;
+            outline: 5px solid rgb(221, 76, 149);
+            width: 80vw;
+            height: 50vh;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 3rem;
+            margin-bottom: 17rem;
         }
 
         .fotos-llegamos{
+            outline: 3px solid green;
+            
             .img1{
+                outline: 3px solid red;
                 width: 75vw;
                 margin-left: auto;
                 margin-right: auto;
+                
+                
             }
         }
 
@@ -159,17 +165,17 @@
             margin-top: -20rem;
         }
 
-        .ventana{
+         .ventana{
             .texto-ventana{
             outline: 5px solid brown;
             width: 95vw;
-            height: 75vh;
+            height: 70vh;
             text-align: center;
             font-size: 13px;
             margin-right: auto;
             margin-left: auto;
         }
-    }
+    } 
 }
 
 
