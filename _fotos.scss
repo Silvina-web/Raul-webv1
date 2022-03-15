@@ -112,9 +112,12 @@
             bottom: 40px;
             visibility: visible;
             opacity: 1;
+            outline: 2px solid blue;
+        
             
-            p{ font-size: 2vw;
-                
+            p{ font-size: 2.5vw;
+                outline: 2px solid red;
+                margin-top: -1.1rem;
                 
            }
         
@@ -139,7 +142,8 @@
             visibility: visible;
             opacity: 1;
             
-            p{ font-size: 2vw;
+            p{ font-size: 2.5vw;
+                margin-top: -1.1rem;
                 
                 
            }

@@ -1,4 +1,22 @@
 
+/* Flecha atras de todas las secciones de fotos */
+.atras{
+    display: none;
+
+    @media screen and (max-width: 770px){
+        display: block;
+        margin-top: 1rem;
+        
+    }
+}
+
+/* flacha atras paginacion todas las secciones fotos */
+.flecha-paginacion-iz{
+    
+    margin-top:30rem;
+
+}
+
 
 
 .cabecera-llegamos{
@@ -26,21 +44,25 @@
     
     
      .texto-llegamos{
-        outline: 5px solid red;
+        border: 1px solid rgb(246, 9, 9);
+        border-radius: 7px;
         width: 25vw;
         height: 25vh;
         margin-top: 19rem;
         text-align: center;
+        padding: 0.5rem;
+        box-shadow: 2px 2px 2px rgba(228, 225, 225, 0.842);
 
         button{
             border-radius: 5px;
             padding: 0.3rem;
             border: none;
         }
-    
+       
     
     }
 .ventana{
+    
     display: flex;
     background-color: rgba(250, 250, 250, 0);
     align-items: center;
@@ -52,25 +74,28 @@
     height: 100vh;
     width: 100vw;
     opacity: 0;
-    transition: all 300ms ease;
+    transition: all 500ms ease;
     
 
-   /*  .show{
-        pointer-events: auto;
-        opacity: 1;
-    } */
+
 
     .texto-ventana{
-        background-color: rgb(241, 243, 243);
-        width: 500px;
-        height: 650px;
+        border: 1px solid rgba(207, 205, 205, 0.849);
+        background-color: rgb(255, 255, 255);
+        width: 600px;
+        height: 730px;
         max-width: 100%;
-        padding: 2rem;
+      /*   padding: 2rem; */
+       margin-left: -2rem;
         border-radius: 3px;
         box-shadow: 2px 2px 2px rgb(231, 224, 224);
         text-align: center;
-        
-
+        .sub-titulo{
+            margin-right: 20rem;
+        }
+        .firma{
+            margin-left: 19rem;
+        }
         button{
             border-radius: 5px;
             padding: 0.3rem;
@@ -103,5 +128,50 @@
     .flecha-llegamos{
         margin-top: 30rem;
     }
+
+    @media screen and (max-width: 770px){
+        outline: 6px solid pink;
+        width: 100vw;
+        
+        
+        display: flex;
+        flex-direction: column;
+
+        .texto-llegamos{
+            outline: 5px solid rgb(71, 15, 88);
+            width: 90vw;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 3rem;
+        }
+
+        .fotos-llegamos{
+            .img1{
+                width: 75vw;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        .flecha-llegamos{
+            margin-left: auto;
+            padding: 1rem;
+            margin-top: -20rem;
+        }
+
+        .ventana{
+            .texto-ventana{
+            outline: 5px solid brown;
+            width: 95vw;
+            height: 75vh;
+            text-align: center;
+            font-size: 13px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+}
+
+
 }
 
