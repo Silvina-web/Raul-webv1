@@ -7,8 +7,7 @@ $('#zoom_05').ezPlus({
 
 
 $('#zoom_06').ezPlus({
-  zoomType: 'inner',
-  cursor: 'crosshair'
+ scrollZoom: true
 });
 
 const open = document.getElementById('open');
