@@ -226,3 +226,31 @@
 
 }
 
+.conteiner-llegamos-pagina{
+    outline: 3px solid red;
+
+
+
+    .contenedor-foto-pagina{
+        outline: 5px solid black; 
+         width: 35vw;
+         height: 65vh; 
+        
+         display: flex;
+        justify-content: center; 
+         align-items: flex-end; 
+         gap: 1em;  
+         margin-left: auto;
+         margin-right: auto;
+    
+        .fotos-llegamos{
+            .img1{
+                width: 23vw;
+               
+                }
+    
+        }
+    
+
+    }
+}
