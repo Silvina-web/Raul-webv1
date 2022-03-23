@@ -35,28 +35,32 @@
 
 
 .conteiner-llegamos{
-    width: 95vw;
+   
     outline: 3px solid green;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    gap: 2rem;
-    
+    justify-content: space-evenly;
+  
+    .contenedor-texto{
+        width: 30vw;
+        height: 65vh;
+        outline: 5px solid rgb(217, 255, 0);
     
      .texto-llegamos{
         border: 1px solid rgb(246, 9, 9);
         border-radius: 7px;
         width: 30vw;
-        height: 25vh;
-        margin-top: 19rem;
+        height: 30vh;
+        margin-top: 15rem;
         text-align: center;
-        padding: 0.4rem;
+        padding-top: 1rem;
         box-shadow: 2px 2px 2px rgba(228, 225, 225, 0.842);
         font-size: 12px;
         button{
             border-radius: 5px;
-            padding: 0.3rem;
+            padding: 0.5rem;
             border: none;
+            box-shadow: 2px 2px 2px rgba(228, 225, 225, 0.596);
         }
        
     
@@ -66,7 +70,7 @@
     display: flex;
     background-color: rgba(250, 250, 250, 0);
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     position: fixed;
     pointer-events: none;
     top:0;
@@ -82,11 +86,11 @@
     .texto-ventana{
         border: 1px solid rgba(207, 205, 205, 0.849);
         background-color: rgb(255, 255, 255);
-        width: 600px;
-        height: 730px;
+        width:35vw;
+        height:45rem;
         max-width: 100%;
-      /*   padding: 2rem; */
-       margin-left: -2rem;
+ padding-top: 1rem;
+    
         border-radius: 3px;
         box-shadow: 2px 2px 2px rgb(231, 224, 224);
         text-align: center;
@@ -98,8 +102,14 @@
         }
         button{
             border-radius: 5px;
-            padding: 0.3rem;
+            margin-top: -1rem;
             border: none;
+            padding: 0.5em;
+            b{
+                color: red;
+                
+            }
+            
         }
 
         
@@ -115,7 +125,17 @@
     opacity: 1;
 }
 
+    }
 
+
+.contenedor-foto{
+   outline: 5px solid black; 
+    width: 25vw;
+    height: 65vh;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    gap: 1em;
 
     .fotos-llegamos{
         .img1{
@@ -125,9 +145,21 @@
 
     }
 
-    .flecha-llegamos{
-        margin-top: 30rem;
-    }
+    
+
+
+
+
+}
+
+
+.contenedor-vacio{
+    width: 30vw;
+    height: 65vh;
+    outline: 5px solid red;
+}
+
+
 
     @media screen and (max-width: 770px){
         outline: 6px solid pink;
