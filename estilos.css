@@ -436,6 +436,26 @@
   }
 }
 
+.conteiner-llegamos-pagina {
+  outline: 3px solid red;
+}
+
+.conteiner-llegamos-pagina .contenedor-foto-pagina {
+  outline: 5px solid black;
+  width: 35vw;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteiner-llegamos-pagina .contenedor-foto-pagina .fotos-llegamos .img1 {
+  width: 23vw;
+}
+
 * {
   margin: 0;
   padding: 0;
