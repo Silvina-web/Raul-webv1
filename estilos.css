@@ -374,11 +374,12 @@
   text-align: center;
   display: flex;
   align-items: flex-end;
-  gap: 1em;
+  gap: 2em;
+  margin-right: -2rem;
 }
 
 .conteiner-llegamos .contenedor-foto .fotos-llegamos .img1 {
-  width: 23vw;
+  width: 22vw;
 }
 
 .conteiner-llegamos .contenedor-vacio {
