@@ -56,6 +56,7 @@
         padding-top: 1rem;
         box-shadow: 2px 2px 2px rgba(228, 225, 225, 0.842);
         font-size: 12px;
+        
         button{
             border-radius: 5px;
             padding: 0.5rem;
@@ -68,7 +69,7 @@
 .ventana{
     
     display: flex;
-    background-color: rgba(250, 250, 250, 0);
+    background-color: rgba(186, 20, 20, 0);
     align-items: center;
     justify-content: start;
     position: fixed;
@@ -79,17 +80,20 @@
     width: 100vw;
     opacity: 0;
     transition: all 500ms ease;
+    border: 5px solid palevioletred;
     
 
 
 
     .texto-ventana{
         border: 1px solid rgba(207, 205, 205, 0.849);
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(237, 51, 51);
         width:35vw;
-        height:45rem;
+        height:55rem;
         max-width: 100%;
- padding-top: 1rem;
+        padding-top: 2rem;
+        
+        overflow: auto;
     
         border-radius: 3px;
         box-shadow: 2px 2px 2px rgb(231, 224, 224);
@@ -102,9 +106,9 @@
         }
         button{
             border-radius: 5px;
-            margin-top: -1rem;
+            margin-top: 5rem; 
             border: none;
-            padding: 0.5em;
+            padding: 0.6em; 
             b{
                 color: red;
                 
@@ -172,17 +176,29 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
+    
+        align-items: center;
+
+
+        .contenedor-texto{
+            outline: 5px solid green;
+            width:90vw ;
+
+               .texto-llegamos{
+            width: 80vw;
+               }
+        }
        
         
 
         .texto-llegamos{
-            outline: 5px solid rgb(192, 189, 3);
+            outline: 5px solid rgb(201, 56, 196);
             width: 70vw;
-            height: 70vh;
+        /*    height: 70vh;
             margin-left: auto;
-            margin-right: auto;
-            margin-top: 5rem;
-            padding-top: 5rem;
+            margin-right: auto; */
+           /*  margin-top: 5rem;
+            padding-top: 5rem;  */
            
         }
         .ventana{

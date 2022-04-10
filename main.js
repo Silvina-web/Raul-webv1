@@ -2,12 +2,14 @@ console.log("hola");
 
 $('#zoom_05').ezPlus({
   zoomType: 'inner',
-  cursor: 'crosshair'
+  cursor: 'crosshair',
+  borderColour: 'red',
 });
 
 
 $('#zoom_06').ezPlus({
- scrollZoom: true
+ scrollZoom: true,
+ borderColour: 'red',
 });
 
 const open = document.getElementById('open');
