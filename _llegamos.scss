@@ -76,8 +76,8 @@
     pointer-events: none;
     top:30px;
     left:30px;
-   /*  height: 100vh;
-    width: 100vw; */
+    height: 95vh;
+    width: 95vw;
     opacity: 0;
     transition: all 500ms ease;
     border: 5px solid palevioletred;
@@ -88,8 +88,8 @@
     .texto-ventana{
         border: 3px solid rgb(32, 12, 184);
         background-color: rgb(237, 51, 51);
-       /*  width:35vw;
-        height:58rem; */
+        width:35vw;
+        height:70vh; 
     /*     max-width: 100%; */
         padding-top: 2rem;
         overflow: auto;
@@ -116,14 +116,14 @@
         }
 
 
-        @media screen and (max-width: 1200px){
+      /*   @media screen and (max-width: 1200px){
 
             .ventana{
             width: 30vw;
             height: 45vh;
             }
             
-        }
+        } */
 
         
 
