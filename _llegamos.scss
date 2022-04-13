@@ -36,7 +36,7 @@
 
 .conteiner-llegamos{
    
-    outline: 3px solid green;
+  
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -44,7 +44,7 @@
     .contenedor-texto{
         width: 30vw;
         height: 65vh;
-        outline: 5px solid rgb(217, 255, 0);
+      
     
      .texto-llegamos{
         border: 1px solid rgb(246, 9, 9);
@@ -69,7 +69,7 @@
 .ventana{
     
     display: flex;
-    background-color: rgba(223, 223, 22, 0.693);
+    background-color: rgba(223, 223, 22, 0);
     align-items: center;
     justify-content: start;
     position: fixed;
@@ -80,13 +80,13 @@
     width: 95vw;
     opacity: 0;
     transition: all 500ms ease;
-    border: 5px solid palevioletred;
+   
     
 
 
 
     .texto-ventana{
-        border: 3px solid rgb(32, 12, 184);
+     
         background-color: rgb(237, 209, 51);
         width:35vw;
         height:86vh; 
@@ -135,7 +135,7 @@
 
 
 .contenedor-foto{
-   outline: 5px solid black; 
+  
     width: 25vw;
     height: 65vh;
     text-align: center;
@@ -167,7 +167,7 @@
 .contenedor-vacio{
     width: 30vw;
     height: 65vh;
-    outline: 5px solid red;
+  
 }
 
 
@@ -255,12 +255,12 @@
 }
 
 .conteiner-llegamos-pagina{
-    outline: 3px solid red;
+  
 
 
 
     .contenedor-foto-pagina{
-        outline: 5px solid black; 
+      
          width: 35vw;
          height: 65vh; 
         
