@@ -343,14 +343,6 @@
   border-radius: 3px;
   box-shadow: 2px 2px 2px #e7e0e0;
   text-align: center;
-  /*   @media screen and (max-width: 1200px){
-
-            .ventana{
-            width: 30vw;
-            height: 45vh;
-            }
-            
-        } */
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .sub-titulo {
