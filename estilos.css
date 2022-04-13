@@ -285,7 +285,6 @@
 }
 
 .conteiner-llegamos {
-  outline: 3px solid green;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -294,7 +293,6 @@
 .conteiner-llegamos .contenedor-texto {
   width: 30vw;
   height: 65vh;
-  outline: 5px solid #d9ff00;
 }
 
 .conteiner-llegamos .contenedor-texto .texto-llegamos {
@@ -318,7 +316,7 @@
 
 .conteiner-llegamos .contenedor-texto .ventana {
   display: flex;
-  background-color: rgba(223, 223, 22, 0.693);
+  background-color: rgba(223, 223, 22, 0);
   align-items: center;
   justify-content: start;
   position: fixed;
@@ -329,11 +327,9 @@
   width: 95vw;
   opacity: 0;
   transition: all 500ms ease;
-  border: 5px solid palevioletred;
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana {
-  border: 3px solid #200cb8;
   background-color: #edd133;
   width: 35vw;
   height: 86vh;
@@ -370,7 +366,6 @@
 }
 
 .conteiner-llegamos .contenedor-foto {
-  outline: 5px solid black;
   width: 25vw;
   height: 65vh;
   text-align: center;
@@ -387,7 +382,6 @@
 .conteiner-llegamos .contenedor-vacio {
   width: 30vw;
   height: 65vh;
-  outline: 5px solid red;
 }
 
 @media screen and (max-width: 770px) {
@@ -447,12 +441,7 @@
   }
 }
 
-.conteiner-llegamos-pagina {
-  outline: 3px solid red;
-}
-
 .conteiner-llegamos-pagina .contenedor-foto-pagina {
-  outline: 5px solid black;
   width: 35vw;
   height: 65vh;
   display: flex;
