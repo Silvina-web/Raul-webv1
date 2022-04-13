@@ -334,9 +334,9 @@
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana {
   border: 3px solid #200cb8;
-  background-color: #ed3333;
+  background-color: #edd133;
   width: 35vw;
-  height: 70vh;
+  height: 86vh;
   /*     max-width: 100%; */
   padding-top: 2rem;
   overflow: auto;
