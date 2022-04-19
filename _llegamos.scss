@@ -87,7 +87,7 @@
 
     .texto-ventana{
      
-        background-color: rgb(237, 209, 51);
+        background-color: rgb(215, 194, 75);
         width:35vw;
         height:86vh; 
     /*     max-width: 100%; */
@@ -96,9 +96,16 @@
         border-radius: 3px;
         box-shadow: 2px 2px 2px rgb(231, 224, 224);
         text-align: center;
-         
+        
+        p{
+            font-size: 0.9rem;
+        }
+          
         .sub-titulo{
             margin-right: 20rem;
+        
+            
+            
         }
         .firma{
             margin-left: 19rem;

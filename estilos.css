@@ -330,7 +330,7 @@
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana {
-  background-color: #edd133;
+  background-color: #d7c24b;
   width: 35vw;
   height: 86vh;
   /*     max-width: 100%; */
@@ -339,6 +339,10 @@
   border-radius: 3px;
   box-shadow: 2px 2px 2px #e7e0e0;
   text-align: center;
+}
+
+.conteiner-llegamos .contenedor-texto .ventana .texto-ventana p {
+  font-size: 0.9rem;
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .sub-titulo {
