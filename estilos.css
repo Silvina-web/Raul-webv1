@@ -331,7 +331,7 @@
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana {
   background-color: #ffff8d;
-  width: 35vw;
+  width: 38vw;
   height: 86vh;
   /*     max-width: 100%; */
   padding-top: 2rem;
@@ -342,7 +342,7 @@
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana p {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .sub-titulo {
