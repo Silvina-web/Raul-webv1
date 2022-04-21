@@ -87,7 +87,7 @@
 
     .texto-ventana{
      
-        background-color: rgb(215, 194, 75);
+        background-color: rgb(255, 255, 141);
         width:35vw;
         height:86vh; 
     /*     max-width: 100%; */
@@ -102,8 +102,9 @@
         }
           
         .sub-titulo{
-            margin-right: 20rem;
-        
+            outline: 5px solid red;
+            margin-right: 25rem;
+            font-size: 15px;
             
             
         }

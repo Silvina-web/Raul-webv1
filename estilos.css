@@ -330,7 +330,7 @@
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana {
-  background-color: #d7c24b;
+  background-color: #ffff8d;
   width: 35vw;
   height: 86vh;
   /*     max-width: 100%; */
@@ -346,7 +346,9 @@
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .sub-titulo {
-  margin-right: 20rem;
+  outline: 5px solid red;
+  margin-right: 25rem;
+  font-size: 15px;
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .firma {
