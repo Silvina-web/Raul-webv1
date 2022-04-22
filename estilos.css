@@ -341,7 +341,7 @@
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .sub-titulo {
@@ -350,12 +350,12 @@
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .firma {
-  margin-left: 19rem;
+  margin-left: 18rem;
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana button {
   border-radius: 5px;
-  margin-top: 5rem;
+  margin-top: -3rem;
   border: none;
   padding: 0.6em;
 }
@@ -391,6 +391,9 @@
 @media screen and (max-width: 1440px) {
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana p {
     font-size: 15px;
+  }
+  .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .firma {
+    margin-left: 15rem;
   }
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana button {
     margin-top: -1.2rem;
