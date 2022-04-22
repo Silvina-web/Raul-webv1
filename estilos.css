@@ -345,7 +345,6 @@
 }
 
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .sub-titulo {
-  outline: 5px solid red;
   margin-right: 18rem;
   font-size: 15px;
 }
@@ -390,14 +389,11 @@
 }
 
 @media screen and (max-width: 1440px) {
-  .conteiner-llegamos .contenedor-texto .ventana .texto-ventana {
-    background-color: red;
-  }
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana p {
     font-size: 15px;
   }
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana button {
-    margin-top: 1rem;
+    margin-top: -1.2rem;
   }
 }
 
