@@ -390,7 +390,7 @@
 
 @media screen and (max-width: 1440px) {
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana p {
-    font-size: 15px;
+    font-size: 1.1vw;
   }
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .firma {
     margin-left: 15rem;
