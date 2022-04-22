@@ -35,115 +35,83 @@
 
 
 .conteiner-llegamos{
-   
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  
-    .contenedor-texto{
-        width: 30vw;
-        height: 65vh;
-      
-    
-     .texto-llegamos{
-        border: 1px solid rgb(246, 9, 9);
-        border-radius: 7px;
-        width: 30vw;
-        height: 30vh;
-        margin-top: 15rem;
-        text-align: center;
-        padding-top: 1rem;
-        box-shadow: 2px 2px 2px rgba(228, 225, 225, 0.842);
-        font-size: 12px;
-        
-        button{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+         .contenedor-texto{
+          width: 30vw;
+          height: 65vh;
+        .texto-llegamos{
+          border: 1px solid rgb(246, 9, 9);
+          border-radius: 7px;
+          width: 30vw;
+          height: 30vh;
+          margin-top: 15rem;
+          text-align: center;
+          padding-top: 1rem;
+          box-shadow: 2px 2px 2px rgba(228, 225, 225, 0.842);
+          font-size: 12px;
+         button{
             border-radius: 5px;
             padding: 0.5rem;
             border: none;
             box-shadow: 2px 2px 2px rgba(228, 225, 225, 0.596);
-        }
-       
-    
-    }
-.ventana{
-    
-    display: flex;
-    background-color: rgba(223, 223, 22, 0);
-    align-items: center;
-    justify-content: start;
-    position: fixed;
-    pointer-events: none;
-    top:30px;
-    left:30px;
-    height: 95vh;
-    width: 95vw;
-    opacity: 0;
-    transition: all 500ms ease;
-   
-    
+               }
+                         }
 
-
-
-    .texto-ventana{
-     
-        background-color: rgb(255, 255, 141);
-        width:38vw;
-        height:86vh; 
-    /*     max-width: 100%; */
-        padding-top: 2rem;
-        overflow: auto;
-        border-radius: 3px;
-        box-shadow: 2px 2px 2px rgb(231, 224, 224);
-        text-align: center;
-        
-        p{
-            font-size: 1rem;
-        }
-          
-        .sub-titulo{
-            outline: 5px solid red;
-            margin-right: 18rem;
-            font-size: 15px;
-            
-            
-        }
-        .firma{
+           .ventana{
+           display: flex;
+           background-color: rgba(223, 223, 22, 0);
+           align-items: center;
+           justify-content: start;
+           position: fixed;
+           pointer-events: none;
+           top:30px;
+           left:30px;
+           height: 95vh;
+           width: 95vw;
+           opacity: 0;
+           transition: all 500ms ease;
+          .texto-ventana{
+                 background-color: rgb(255, 255, 141);
+                 width:38vw;
+                 height:84vh; 
+                 padding-top: 2rem;
+                 overflow: auto;
+                 border-radius: 3px;
+                 box-shadow: 2px 2px 2px rgb(231, 224, 224);
+                 text-align: center;
+             p{
+            font-size: 1.2rem;
+              }
+           .sub-titulo{
+              outline: 5px solid red;
+              margin-right: 18rem;
+              font-size: 15px;
+                      }
+          .firma{
             margin-left: 19rem;
-        }
-        button{
-            border-radius: 5px;
-            margin-top: 5rem; 
-            border: none;
-            padding: 0.6em; 
+                }
+           button{
+              border-radius: 5px;
+              margin-top: 5rem; 
+              border: none;
+              padding: 0.6em; 
             b{
                 color: red;
-                
-            }
-            
-        }
-
-
-     
-
-        
+                }
+                }
+         }
 
     }
 
-    
-
-}
-
-.show{
+     .show{
     pointer-events: auto;
     opacity: 1;
-}
+           }
 
-    }
-
-
+            }
 .contenedor-foto{
-  
     width: 25vw;
     height: 65vh;
     text-align: center;
@@ -151,145 +119,104 @@
     align-items: flex-end;
     gap:2em;
     margin-right: -3rem;
-
-    .fotos-llegamos{
+.fotos-llegamos{
         .img1{
             width: 22vw;
-            
-            
-        
-            
-           
-            }
-
-    }
-
-    
-
-
-
-
+              }
+              }
 }
-
-
-.contenedor-vacio{
+    .contenedor-vacio{
     width: 30vw;
     height: 65vh;
-  
-}
+                       }
+
+                       @media screen and (max-width: 1440px){
+                           .contenedor-texto{
+                           .ventana{
+                           .texto-ventana{
+                               background-color: red;
+                               p{
+                                   font-size: 15px;
+                               }
+                               button{
+                                   margin-top: 1rem;
+                               }
+                           }
+
+                       }}}
+                       
+
+            @media screen and (max-width: 770px){
+                              outline: 6px solid pink;
+                              width: 100vw;
+                              height: 100vh;
+                              display: flex;
+                              flex-direction: column;
+                              align-items: center;
+
+                                           .contenedor-texto{
+                                                  outline: 5px solid green;
+                                                  width:90vw ;
+                                            .texto-llegamos{
+                                                  width: 80vw;
+                                                            }
+                                                              }
+                                            .texto-llegamos{
+                                                  outline: 5px solid rgb(201, 56, 196);
+                                                  width: 70vw;
+                                                           }
+                                            .ventana{
+                                                   height: 70vh;
+                                                   background-color: rgba(43, 129, 204, 0.466);
+                                                   margin-top: 10rem;
+                                            .texto-ventana{
+                                                  outline: 5px solid brown;
+                                                   width: 95vw;
+                                                   height: 75vh;
+                                                   text-align: center;
+                                                   font-size: 13px;
+                                                   margin-right: auto;
+                                                    margin-left: auto;
+                                                         }
+                                                       } 
+                                            .fotos-llegamos{
+                                               outline: 3px solid green;
+                                                         .img1{
+                                                             outline: 3px solid red;
+                                                              width: 75vw;
+                                                              margin-left: auto;
+                                                               margin-right: auto;
+                                                               }
+                                                            }
+
+                                             .flecha-llegamos{
+                                                      margin-left: auto;
+                                                      padding: 1rem;
+                                                       margin-top: -20rem;
+                                                              }
+
+                                                                 }
 
 
-
-   
-
-
-
-
-@media screen and (max-width: 770px){
-        outline: 6px solid pink;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-    
-        align-items: center;
-
-
-        .contenedor-texto{
-            outline: 5px solid green;
-            width:90vw ;
-
-               .texto-llegamos{
-            width: 80vw;
-               }
-        }
-       
-        
-
-        .texto-llegamos{
-            outline: 5px solid rgb(201, 56, 196);
-            width: 70vw;
-        /*    height: 70vh;
-            margin-left: auto;
-            margin-right: auto; */
-           /*  margin-top: 5rem;
-            padding-top: 5rem;  */
-           
-        }
-        .ventana{
-            height: 70vh;
-            background-color: rgba(43, 129, 204, 0.466);
-            margin-top: 10rem;
-            .texto-ventana{
-            outline: 5px solid brown;
-            width: 95vw;
-            height: 75vh;
-            text-align: center;
-            font-size: 13px;
-            margin-right: auto;
-            margin-left: auto;
-        }
-    } 
-        .fotos-llegamos{
-            outline: 3px solid green;
-           
-        
-        
-            
-            .img1{
-                outline: 3px solid red;
-                width: 75vw;
-                margin-left: auto;
-                margin-right: auto;
-               /*  display: inline-block;
-                margin-top: -12rem; */
-            
-                
-                
-                
-            }
-        }
-
-        .flecha-llegamos{
-            margin-left: auto;
-            padding: 1rem;
-            margin-top: -20rem;
-        }
-
-        
-}
-
-
-}
+                                                      }
 
 .conteiner-llegamos-pagina{
-  
-
-
-
-    .contenedor-foto-pagina{
-      
-         width: 35vw;
-         height: 65vh; 
-        
-         display: flex;
-        justify-content: center; 
-         align-items: flex-end; 
-         gap: 1em;  
-         margin-left: auto;
-         margin-right: auto;
-    
-        .fotos-llegamos{
+          .contenedor-foto-pagina{
+                   width: 35vw;
+                  height: 65vh; 
+                  display: flex;
+                  justify-content: center; 
+                   align-items: flex-end; 
+                   gap: 1em;  
+                   margin-right: auto;
+          .fotos-llegamos{
             .img1{
                 width: 23vw;
                
                 }
-    
-        }
-    
-
-    }
-}
+     }
+     }
+     }
 
 
 
