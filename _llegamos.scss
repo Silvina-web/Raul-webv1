@@ -135,13 +135,24 @@
                            .contenedor-texto{
                            .ventana{
                            .texto-ventana{
+                               .sub-titulo{
+                               
+                                   font-size: 1.1vw;
+                                   width: 15vw;
+                               }
                               
                                p{
                                    font-size: 1.1vw;
                                }
                                .firma{
-                                 
-                                   margin-left: 15rem;
+                                  
+                                   margin-left: 11rem;
+                                   
+                                  i{
+                                   
+                                     width: 5rem;
+                                      
+                                  }
                                }
                                button{
                                    margin-top: -1.2rem;

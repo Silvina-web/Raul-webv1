@@ -389,11 +389,18 @@
 }
 
 @media screen and (max-width: 1440px) {
+  .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .sub-titulo {
+    font-size: 1.1vw;
+    width: 15vw;
+  }
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana p {
     font-size: 1.1vw;
   }
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .firma {
-    margin-left: 15rem;
+    margin-left: 11rem;
+  }
+  .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .firma i {
+    width: 5rem;
   }
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana button {
     margin-top: -1.2rem;
