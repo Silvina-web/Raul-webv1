@@ -422,12 +422,13 @@
     margin-top: 2rem;
   }
   .conteiner-llegamos .contenedor-texto .texto-llegamos {
-    outline: 5px solid #c938c4;
+    outline: 1px solid #f81616;
     width: 85vw;
+    height: 35vh;
     margin: auto;
   }
   .conteiner-llegamos .contenedor-texto .texto-llegamos p {
-    font-size: 11px;
+    font-size: 2.5vw;
   }
   .conteiner-llegamos .contenedor-texto .ventana {
     height: 70vh;
@@ -454,6 +455,7 @@
   }
   .conteiner-llegamos .contenedor-foto {
     outline: 5px solid yellow;
+    margin-bottom: -10rem;
     width: 90vw;
   }
   .conteiner-llegamos .contenedor-foto .fotos-llegamos {
@@ -485,7 +487,13 @@
 }
 
 .conteiner-llegamos-pagina .contenedor-foto-pagina .fotos-llegamos .img1 {
-  width: 80vw;
+  width: 22vw;
+}
+
+@media screen and (max-width: 770px) {
+  .conteiner-llegamos-pagina .contenedor-foto-pagina .fotos-llegamos .img1 {
+    width: 60vw;
+  }
 }
 
 * {
