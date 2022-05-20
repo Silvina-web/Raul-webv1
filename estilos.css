@@ -496,9 +496,10 @@
   }
 }
 
-.cabecera-llegamos {
+.cabecera-abs {
   position: fixed;
   background-color: white;
+  width: 100vw;
 }
 
 .titulo-abstracciones {
