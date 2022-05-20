@@ -1,37 +1,29 @@
-.arteMutante__texto{
-    
-    width: 80vw;
-    margin: auto;
+.titulos{
     text-align: center;
-   /*  padding-inline-end: 2rem; */
-padding: 1rem;
-
 }
 
-
-
-
-.arteMutante__fotos{
-
+.obra1{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
 
-
-    img{
-        border-radius: 10px;
-        box-shadow: 2px 2px 2px rgb(204, 201, 201);
-        width: 50vw;
-        transition: all 0.8s;
-
-        &:hover{
+    .obra-principal1{
+        .obraFinal1{
             width: 55vw;
-            transform: translatey(-15px);
-            box-shadow: 8px 8px 5px grey;
-
+            border-radius: 5px;
         }
     }
 
+    .galeria1{
+        
+        .slide{
+            width: 30vw;
+
+        }
+        img{
+            border-radius: 5px;
+        }
+
+    }
 }
