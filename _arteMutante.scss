@@ -2,8 +2,12 @@
     margin-top: 2rem;
     margin-bottom: 3rem;
     text-align: center;
+    i{
+        font-size: 1rem;
+        
+    }
 }
-
+/* obras horizontales */
 .obra1{
     display: flex;
     flex-direction: row;
@@ -12,7 +16,7 @@
 
     .obra-principal1{
         .obraFinal1{
-            width: 55vw;
+            width: 63vw;
             border-radius: 5px;
         }
     }
@@ -27,5 +31,24 @@
             border-radius: 5px;
         }
 
+    }
+}
+
+/* obras verticales */
+.obra2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    .obra-principal2{
+        .obraFinal2{
+            width: 34vw;
+            border-radius: 5px;
+        }
+    }
+    .galeria2{
+        .slide{
+            width: 28vw;
+        }
     }
 }

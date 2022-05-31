@@ -175,6 +175,11 @@
   text-align: center;
 }
 
+.titulos i {
+  font-size: 1rem;
+}
+
+/* obras horizontales */
 .obra1 {
   display: flex;
   flex-direction: row;
@@ -183,7 +188,7 @@
 }
 
 .obra1 .obra-principal1 .obraFinal1 {
-  width: 55vw;
+  width: 63vw;
   border-radius: 5px;
 }
 
@@ -193,6 +198,23 @@
 
 .obra1 .galeria1 img {
   border-radius: 5px;
+}
+
+/* obras verticales */
+.obra2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.obra2 .obra-principal2 .obraFinal2 {
+  width: 34vw;
+  border-radius: 5px;
+}
+
+.obra2 .galeria2 .slide {
+  width: 28vw;
 }
 
 .fixed-hije {
