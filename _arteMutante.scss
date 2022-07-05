@@ -7,6 +7,31 @@
         
     }
 }
+/* texto */
+
+.textoArteMutante{
+ margin: auto;
+    width: 80vw;
+    text-align: center;
+}
+
+/* Video arte mutante */
+.videoArteM{
+  
+   width: 50vw;
+   margin-left: auto;
+   margin-right: auto;
+   .tituloVideoArte{
+    text-align: center;
+   }
+   .videoBack{
+    iframe{
+        
+         text-align: end;
+    
+   }
+}
+}
 /* obras horizontales */
 .obra1{
     display: flex;
