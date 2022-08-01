@@ -197,6 +197,10 @@
   text-align: center;
 }
 
+.videoArteM .tituloVideoArte p {
+  font-size: 17px;
+}
+
 .videoArteM .videoBack iframe {
   text-align: end;
 }
