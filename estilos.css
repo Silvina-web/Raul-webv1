@@ -5,19 +5,16 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 .imagenes__fotos1 .Caja__foto {
   position: relative;
 }
-
 .imagenes__fotos1 .Caja__foto img {
   position: relative;
   /*  width: 27vw; */
   width: 29.16vw;
   border-radius: 3px;
-  box-shadow: 2px 2px 5px #8a8787;
+  box-shadow: 2px 2px 5px rgb(138, 135, 135);
 }
-
 .imagenes__fotos1 .Caja__foto .frase {
   position: absolute;
   bottom: 48px;
@@ -29,19 +26,16 @@
   visibility: hidden;
   background-color: rgba(255, 255, 255, 0.815);
 }
-
 .imagenes__fotos1 .Caja__foto .frase p {
   font-size: 1.1vw;
   padding: 1.5rem;
 }
-
 .imagenes__fotos1 .Caja__foto:hover > .frase {
   visibility: visible;
   opacity: 1;
 }
-
 .imagenes__fotos1 .Caja__foto .textos h5 {
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
   text-align: center;
   margin-top: 1rem;
 }
@@ -54,19 +48,16 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 .imagenes__fotos2 .Caja__foto {
   position: relative;
   /*   overflow: hidden; */
 }
-
 .imagenes__fotos2 .Caja__foto img {
   position: relative;
   width: 29.16vw;
   border-radius: 3px;
-  box-shadow: 2px 2px 5px #9e9d9d;
+  box-shadow: 2px 2px 5px rgb(158, 157, 157);
 }
-
 .imagenes__fotos2 .Caja__foto .frase {
   position: absolute;
   bottom: 48px;
@@ -78,19 +69,16 @@
   visibility: hidden;
   background-color: rgba(255, 255, 255, 0.815);
 }
-
 .imagenes__fotos2 .Caja__foto .frase p {
   font-size: 1.1vw;
   padding: 1.5rem;
 }
-
 .imagenes__fotos2 .Caja__foto:hover > .frase {
   visibility: visible;
   opacity: 1;
 }
-
 .imagenes__fotos2 .Caja__foto .textos h5 {
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
   text-align: center;
   margin-top: 1rem;
 }
@@ -138,18 +126,15 @@
     margin-top: -1.1rem;
   }
 }
-
 .texto__fotoLibro {
   width: 76vw;
   margin: auto;
 }
-
 .texto__fotoLibro .titulo__fotoLibro {
   text-align: center;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-
 .texto__fotoLibro p {
   line-height: 2rem;
   font-size: 15px;
@@ -159,7 +144,6 @@
 .texto-solo {
   text-align: center;
 }
-
 .texto-solo .masGrande {
   font-size: 19px;
 }
@@ -174,7 +158,6 @@
   margin-bottom: 1rem;
   text-align: center;
 }
-
 .titulos i {
   font-size: 1rem;
 }
@@ -185,6 +168,9 @@
   width: 80vw;
   text-align: center;
 }
+.textoArteMutante .textoColor {
+  color: rgb(206, 50, 50);
+}
 
 /* Video arte mutante */
 .videoArteM {
@@ -192,15 +178,12 @@
   margin-left: auto;
   margin-right: auto;
 }
-
 .videoArteM .tituloVideoArte {
   text-align: center;
 }
-
 .videoArteM .tituloVideoArte p {
   font-size: 17px;
 }
-
 .videoArteM .videoBack iframe {
   text-align: end;
 }
@@ -212,16 +195,13 @@
   justify-content: space-evenly;
   /*    margin-top: 1rem; */
 }
-
 .obra1 .obra-principal1 .obraFinal1 {
   width: 63vw;
   border-radius: 5px;
 }
-
 .obra1 .galeria1 .slide {
   width: 30vw;
 }
-
 .obra1 .galeria1 img {
   border-radius: 5px;
 }
@@ -233,12 +213,10 @@
   justify-content: space-evenly;
   margin-top: 1rem;
 }
-
 .obra2 .obra-principal2 .obraFinal2 {
   width: 34vw;
   border-radius: 5px;
 }
-
 .obra2 .galeria2 .slide {
   width: 28vw;
 }
@@ -247,7 +225,6 @@
   width: 100vw;
   position: fixed;
 }
-
 .fixed-hije .titulo__hije {
   text-align: center;
   margin-top: -1rem;
@@ -261,16 +238,14 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   gap: 1rem;
-  margin-left: .7 rem;
+  margin-left: 0.7 rem;
 }
-
 .fotos_hije img {
   margin-top: 14rem;
   border-radius: 3px;
-  box-shadow: 2px 2px 5px #8a8787;
+  box-shadow: 2px 2px 5px rgb(138, 135, 135);
   height: 70vh;
 }
-
 @media screen and (max-width: 1500px) {
   .fotos_hije img {
     height: 65vh;
@@ -283,31 +258,27 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 .conteiner-bio .bio-text {
-  outline: 5px solid #aaaab9;
+  outline: 5px solid rgb(170, 170, 185);
   width: 35vw;
 }
-
 .conteiner-bio .bio-img {
-  outline: 5px solid #9c8888;
+  outline: 5px solid rgb(156, 136, 136);
   width: 20vw;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 1rem;
 }
-
 .conteiner-bio .bio-img img {
   border-radius: 2px;
-  box-shadow: 2px 2px 2px #a7a7a7;
+  box-shadow: 2px 2px 2px rgb(167, 167, 167);
 }
 
 /* Flecha atras de todas las secciones de fotos */
 .atras {
   display: none;
 }
-
 @media screen and (max-width: 770px) {
   .atras {
     display: block;
@@ -323,7 +294,6 @@
 .cabecera-llegamos {
   width: 100vw;
 }
-
 .cabecera-llegamos .titulo__hije {
   text-align: center;
   margin-top: -1rem;
@@ -335,14 +305,12 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
-
 .conteiner-llegamos .contenedor-texto {
   width: 30vw;
   height: 65vh;
 }
-
 .conteiner-llegamos .contenedor-texto .texto-llegamos {
-  border: 1px solid #f60909;
+  border: 1px solid rgb(246, 9, 9);
   border-radius: 7px;
   width: 30vw;
   height: 30vh;
@@ -352,14 +320,12 @@
   box-shadow: 2px 2px 2px rgba(228, 225, 225, 0.842);
   font-size: 12px;
 }
-
 .conteiner-llegamos .contenedor-texto .texto-llegamos button {
   border-radius: 5px;
   padding: 0.5rem;
   border: none;
   box-shadow: 2px 2px 2px rgba(228, 225, 225, 0.596);
 }
-
 .conteiner-llegamos .contenedor-texto .ventana {
   display: flex;
   background-color: rgba(223, 223, 22, 0);
@@ -374,47 +340,39 @@
   opacity: 0;
   transition: all 500ms ease;
 }
-
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana {
-  background-color: #ffff8d;
+  background-color: rgb(255, 255, 141);
   width: 38vw;
   height: 84vh;
   padding-top: 2rem;
   overflow: auto;
   border-radius: 3px;
-  box-shadow: 2px 2px 2px #e7e0e0;
+  box-shadow: 2px 2px 2px rgb(231, 224, 224);
   text-align: center;
 }
-
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana p {
   font-size: 1rem;
 }
-
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .sub-titulo {
   margin-right: 18rem;
   font-size: 15px;
 }
-
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .firma {
   margin-left: 18rem;
 }
-
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana button {
   border-radius: 5px;
   margin-top: -3rem;
   border: none;
   padding: 0.6em;
 }
-
 .conteiner-llegamos .contenedor-texto .ventana .texto-ventana button b {
   color: red;
 }
-
 .conteiner-llegamos .contenedor-texto .show {
   pointer-events: auto;
   opacity: 1;
 }
-
 .conteiner-llegamos .contenedor-foto {
   width: 25vw;
   height: 65vh;
@@ -424,16 +382,13 @@
   gap: 2em;
   margin-right: -3rem;
 }
-
 .conteiner-llegamos .contenedor-foto .fotos-llegamos .img1 {
   width: 22vw;
 }
-
 .conteiner-llegamos .contenedor-vacio {
   width: 30vw;
   height: 65vh;
 }
-
 @media screen and (max-width: 1440px) {
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .sub-titulo {
     font-size: 1.1vw;
@@ -452,10 +407,9 @@
     margin-top: -1.2rem;
   }
 }
-
 @media screen and (max-width: 770px) {
   .conteiner-llegamos {
-    outline: 6px solid #1f0dc3;
+    outline: 6px solid rgb(31, 13, 195);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -468,7 +422,7 @@
     margin-top: 2rem;
   }
   .conteiner-llegamos .contenedor-texto .texto-llegamos {
-    outline: 1px solid #f81616;
+    outline: 1px solid rgb(248, 22, 22);
     width: 85vw;
     height: 35vh;
     margin: auto;
@@ -505,7 +459,7 @@
     width: 90vw;
   }
   .conteiner-llegamos .contenedor-foto .fotos-llegamos {
-    outline: 3px solid #914f15;
+    outline: 3px solid rgb(145, 79, 21);
     margin-top: 5rem;
   }
   .conteiner-llegamos .contenedor-foto .fotos-llegamos .img1 {
@@ -531,11 +485,9 @@
   gap: 1em;
   margin-right: auto;
 }
-
 .conteiner-llegamos-pagina .contenedor-foto-pagina .fotos-llegamos .img1 {
   width: 22vw;
 }
-
 @media screen and (max-width: 770px) {
   .conteiner-llegamos-pagina .contenedor-foto-pagina .fotos-llegamos .img1 {
     width: 60vw;
@@ -561,7 +513,6 @@
   align-items: center;
   gap: 2rem;
 }
-
 .fotos-abstracciones .fotos-horizontales {
   display: flex;
   flex-direction: column;
@@ -569,33 +520,28 @@
   gap: 2rem;
   margin-top: 20rem;
 }
-
 .fotos-abstracciones .fotos-horizontales img {
   /*   padding-top: 15rem; */
-  box-shadow: 2px 2px 2px #ccc9c9;
+  box-shadow: 2px 2px 2px rgb(204, 201, 201);
   width: 40vw;
   border-radius: 5px;
   transition: all 0.8s;
 }
-
 .fotos-abstracciones .fotos-horizontales img:hover {
   width: 50vw;
 }
-
 .fotos-abstracciones .fotos-verticales {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
 }
-
 .fotos-abstracciones .fotos-verticales img {
-  box-shadow: 2px 2px 2px #ccc9c9;
+  box-shadow: 2px 2px 2px rgb(204, 201, 201);
   width: 30vw;
   border-radius: 5px;
   transition: all 0.8s;
 }
-
 .fotos-abstracciones .fotos-verticales img:hover {
   width: 50vw;
 }
@@ -618,16 +564,15 @@
  } */
 .titulo {
   /*  outline: 3px solid red;
-    width: 20vw;
-    position: fixed;
-    left: 50%;
-    right: 50%;
-    
-    transform: translate(-50%,-50%); */
-}
+  width: 20vw;
+  position: fixed;
+  left: 50%;
+  right: 50%;
 
+  transform: translate(-50%,-50%); */
+}
 .titulo .nombre {
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
   text-align: center;
   margin-top: 2rem;
 }
@@ -635,7 +580,6 @@
 header #btn-menu {
   display: none;
 }
-
 header label {
   display: none;
   width: 30px;
@@ -645,37 +589,33 @@ header label {
 
 .secciones {
   /* outline: 3px solid red;
-    width: 80vw;
-    position: fixed;
-    left:50%;
-    right: 50%;
-    transform: translate(-50%,-50%);
-    margin-top: 5rem; */
+  width: 80vw;
+  position: fixed;
+  left:50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 5rem; */
 }
-
 .secciones ul {
   margin-top: 2rem;
   margin-bottom: 3rem;
   list-style: none;
   display: flex;
 }
-
 .secciones ul li {
   flex-grow: 1;
   text-align: center;
 }
-
 .secciones ul li a {
   display: block;
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
   text-decoration: none;
-  color: #1b1a1a;
+  color: rgb(27, 26, 26);
   letter-spacing: 2px;
   font-size: 16px;
 }
-
 .secciones ul li a:hover {
-  color: #ce3232;
+  color: rgb(206, 50, 50);
 }
 
 @media screen and (max-width: 770px) {
@@ -707,9 +647,8 @@ header label {
     margin-top: -2rem;
   }
 }
-
 #nav__click {
-  color: #ce3232;
+  color: rgb(206, 50, 50);
 }
 
 .secciones {
@@ -720,7 +659,6 @@ header label {
   width: 58vw;
   margin: auto;
 }
-
 @media screen and (max-width: 770px) {
   .slide {
     margin-top: 13rem;
@@ -729,30 +667,29 @@ header label {
 
 /* .carousel-inner{
        outline: 2px solid yellow;
-       
-    
+
+
        margin-left: 27%;
        margin-right: 20%;  
 
         @media screen and (max-width: 770px) {
 
-            
-                
-                
-                  
-                       
-                    
-            
-          
-           
+
+
+
+
+
+
+
+
+
              margin-top: 10rem; 
            .carousel-item { outline: 2px solid blue;
            img{
                outline: 2px solid red;
-               
-               
+
+
            }
        } 
    } 
-} */
-/*# sourceMappingURL=estilos.css.map */
+} *//*# sourceMappingURL=estilos.css.map */
