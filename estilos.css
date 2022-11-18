@@ -197,7 +197,7 @@
   /*    margin-top: 1rem; */
 }
 .obra1 .obra-principal1 .obraFinal1 {
-  width: 63vw;
+  width: 58vw;
   border-radius: 5px;
 }
 .obra1 .galeria1 .slide {
@@ -215,7 +215,7 @@
   margin-top: 1rem;
 }
 .obra2 .obra-principal2 .obraFinal2 {
-  width: 34vw;
+  width: 27vw;
   border-radius: 5px;
 }
 .obra2 .galeria2 .slide {
@@ -519,7 +519,7 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  margin-top: 20rem;
+  margin-top: 40rem;
 }
 .fotos-abstracciones .fotos-horizontales img {
   /*   padding-top: 15rem; */
@@ -562,6 +562,13 @@
 }
 .fotos-abstracciones .fotos-horizontales-2 img:hover {
   width: 50vw;
+}
+.fotos-abstracciones .apaisada .apaisada1 {
+  margin-bottom: -50rem;
+  width: 100vw;
+}
+.fotos-abstracciones .apaisada .apaisada2 {
+  width: 100vw;
 }
 
 * {
