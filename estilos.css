@@ -668,6 +668,25 @@ header label {
   color: rgb(206, 50, 50);
 }
 
+/* .carousel{  NO ANDA
+ .carrousel-inner{
+        .carousel-item {
+            position: relative;
+            display: none;
+            float: left;
+            width: 10%;
+            margin-right: -100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transition: transform .2s ease-in-out;
+
+            img{
+                border-radius: 5px;
+            }
+
+        }
+    }
+} */
 img {
   border-radius: 5px;
 }
