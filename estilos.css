@@ -582,6 +582,20 @@
   width: 100vw;
 }
 
+.titulo-miras {
+  text-align: center;
+}
+
+.imagenes-miras {
+  outline: 3px solid red;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
