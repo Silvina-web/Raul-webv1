@@ -514,6 +514,11 @@
   align-items: center;
   gap: 2rem;
 }
+@media screen and (max-width: 770px) {
+  .fotos-abstracciones {
+    margin-top: -15rem;
+  }
+}
 .fotos-abstracciones .fotos-horizontales {
   display: flex;
   flex-direction: column;
@@ -564,8 +569,14 @@
   width: 50vw;
 }
 .fotos-abstracciones .apaisada .apaisada1 {
-  margin-bottom: -60rem;
+  margin-bottom: -56rem;
   width: 100vw;
+}
+@media screen and (max-width: 1600px) {
+  .fotos-abstracciones .apaisada .apaisada1 {
+    outline: 3px solid pink;
+    margin-bottom: -60rem;
+  }
 }
 .fotos-abstracciones .apaisada .apaisada2 {
   width: 100vw;
@@ -641,6 +652,10 @@ header label {
 }
 .secciones ul li a:hover {
   color: rgb(206, 50, 50);
+}
+
+img {
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 770px) {

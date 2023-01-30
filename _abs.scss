@@ -20,6 +20,12 @@ width: 100vw;
    align-items: center; 
    gap: 2rem; 
 
+
+   @media screen  and (max-width:770px){
+     margin-top: -15rem;
+    
+   }
+
    
    
    
@@ -90,8 +96,14 @@ width: 100vw;
 
     .apaisada1{
    
-      margin-bottom: -60rem;
+      margin-bottom: -56rem;
       width: 100vw;
+
+      @media screen and (max-width:1600px){
+        outline: 3px solid pink;
+        margin-bottom: -60rem;
+        
+      }
        
        
     }
