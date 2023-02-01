@@ -596,6 +596,10 @@
   gap: 1rem;
 }
 
+.titulo-marchas {
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
