@@ -496,7 +496,7 @@
 }
 
 .cabecera-abs {
-  position: fixed;
+  /* position: fixed; */
   background-color: white;
   width: 100vw;
 }
@@ -513,6 +513,7 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  margin-top: -17rem;
 }
 @media screen and (max-width: 770px) {
   .fotos-abstracciones {
