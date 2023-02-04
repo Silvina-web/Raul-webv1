@@ -496,7 +496,6 @@
 }
 
 .cabecera-abs {
-  /* position: fixed; */
   background-color: white;
   width: 100vw;
 }
@@ -513,7 +512,7 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  margin-top: -17rem;
+  margin-top: -18rem;
 }
 @media screen and (max-width: 770px) {
   .fotos-abstracciones {
@@ -525,7 +524,7 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  margin-top: 40rem;
+  margin-top: 37rem;
 }
 .fotos-abstracciones .fotos-horizontales img {
   /*   padding-top: 15rem; */

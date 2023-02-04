@@ -1,5 +1,5 @@
 .cabecera-abs{
-/* position: fixed; */
+
 background-color: white;
 width: 100vw;
 }
@@ -19,7 +19,7 @@ width: 100vw;
    flex-direction: column;
    align-items: center; 
    gap: 2rem; 
-   margin-top: -17rem;
+   margin-top: -18rem;
   
 
    @media screen  and (max-width:770px){
@@ -35,7 +35,7 @@ width: 100vw;
         flex-direction: column;
         align-items: center;
         gap:2rem;
-        margin-top: 40rem;
+        margin-top: 37rem;
             img{
      /*   padding-top: 15rem; */
        box-shadow: 2px 2px 2px rgb(204, 201, 201);
