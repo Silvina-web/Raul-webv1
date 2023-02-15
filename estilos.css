@@ -587,13 +587,20 @@
 }
 
 .imagenes-miras {
-  outline: 3px solid red;
+  width: 95vw;
+  margin: auto;
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 1rem;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+.imagenes-miras img {
+  width: 46vw;
+}
+.imagenes-miras .img-grande {
+  width: 96vw;
 }
 
 .titulo-marchas {
