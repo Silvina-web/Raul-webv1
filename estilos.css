@@ -265,10 +265,13 @@
   justify-content: space-evenly;
 }
 .conteiner-bio .bio-text {
-  outline: 1px solid rgb(151, 151, 153);
+  outline: 5px solid rgb(22, 22, 212);
   width: 25vw;
   font-size: 18px;
   line-height: 2rem;
+}
+.conteiner-bio .bio-text .cv {
+  margin-top: 10rem;
 }
 .conteiner-bio .bio-img {
   outline: 5px solid rgb(156, 136, 136);
