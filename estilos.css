@@ -98,11 +98,9 @@
     bottom: 40px;
     visibility: visible;
     opacity: 1;
-    outline: 2px solid blue;
   }
   .imagenes__fotos1 .Caja__foto .frase p {
     font-size: 2.5vw;
-    outline: 2px solid red;
     margin-top: -1.1rem;
   }
   .imagenes__fotos2 {
@@ -511,7 +509,6 @@
 }
 
 .conteiner-llegamos-pagina .contenedor-foto-pagina {
-  outline: 5px solid brown;
   width: 100vw;
   height: 65vh;
   display: flex;
