@@ -13,19 +13,18 @@ width: 100vw;
 
 
 .fotos-abstracciones{
-  
-   outline: 5px solid red;
    display: flex;
    flex-direction: column;
    align-items: center; 
    gap: 2rem; 
    margin-top: -18rem;
   
-
-   @media screen  and (max-width:770px){
-     margin-top: -15rem;
+ /*  @media screen  and (max-width:1000px){
+    margin-top: -21rem; 
     
-   }
+     
+     } */
+
 
    
    
@@ -45,9 +44,21 @@ width: 100vw;
 
        &:hover{
            width: 50vw;
-          
+          justify-content: space-around;
        }
 }
+   
+@media screen  and (max-width:1110px){
+   margin-top: 31rem;
+    
+     
+     }
+     @media screen and (max-width: 400px) {
+        margin-top: 27rem;
+        
+     }
+   
+
 }
 
 .fotos-verticales{
@@ -96,16 +107,17 @@ width: 100vw;
   
 
     .apaisada1{
-   
-      margin-bottom: -56rem; 
-      width: 100vw;
+        margin-bottom: -53rem; 
+         width: 100vw;
      
-      
+         @media screen and (max-width:750px){
+           
+           
+       }
       @media screen and (max-width:1600px){
-        outline: 3px solid pink;
-        margin-bottom: -60rem;
-        
-      }
+       
+             margin-bottom: -50rem;
+        }
        
        
     }

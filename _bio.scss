@@ -11,11 +11,23 @@
    
 
          .bio-text{
-             outline: 1px solid red;
+            
              width: 40vw;
              font-size: 18px;
              line-height: 2rem;
              margin-left: -4rem;
+
+             @media screen and (max-width:1000px) {
+                
+                width: 30vw;
+                 
+             }
+
+             @media screen and (max-width:600px) {
+                
+                margin-left: 3rem;
+                
+             }
              
 
              .cv{
@@ -35,7 +47,7 @@
 
               
                 font-size: 15px;
-                width: 45vw;
+                width: 40vw;
                 line-height: 1.5rem;
                 
              }
@@ -44,8 +56,8 @@
 
 
     .bio-img{
-       outline: 1px solid red;
-        width: 40vw;
+      
+        width: 33vw;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -63,4 +75,6 @@
 
         }
     }
+
+
 }
