@@ -226,6 +226,10 @@
     margin-left: -8rem;
     margin-top: -6rem;
   }
+  .obra1 .galeria1 .carousel-indicators {
+    width: 75vw;
+    margin: auto;
+  }
 }
 
 /* obras verticales */
