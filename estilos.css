@@ -211,6 +211,24 @@
 .obra1 .galeria1 img {
   border-radius: 5px;
 }
+@media screen and (max-width: 450px) {
+  .obra1 {
+    display: flex;
+    flex-direction: column;
+    outline: 3px solid red;
+    width: 90vw;
+    margin: auto;
+  }
+  .obra1 .obra-principal1 .obraFinal1 {
+    outline: 3px solid pink;
+    width: 75vw;
+    margin-left: 2rem;
+  }
+  .obra1 .galeria1 {
+    margin-left: -8rem;
+    margin-top: -6rem;
+  }
+}
 
 /* obras verticales */
 .obra2 {
