@@ -150,6 +150,11 @@
   margin-top: 2rem;
   text-align: center;
 }
+@media screen and (max-width: 450px) {
+  .video__fotoLibro iframe {
+    width: 90vw;
+  }
+}
 
 .titulos {
   margin-top: 2rem;
