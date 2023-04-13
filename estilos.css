@@ -496,7 +496,6 @@
 }
 @media screen and (max-width: 770px) {
   .conteiner-llegamos {
-    outline: 6px solid rgb(31, 13, 195);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -504,12 +503,10 @@
     align-items: center;
   }
   .conteiner-llegamos .contenedor-texto {
-    outline: 5px solid green;
     width: 90vw;
     margin-top: 2rem;
   }
   .conteiner-llegamos .contenedor-texto .texto-llegamos {
-    outline: 1px solid rgb(248, 22, 22);
     width: 85vw;
     height: 35vh;
     margin: auto;
@@ -518,14 +515,13 @@
     font-size: 2.5vw;
   }
   .conteiner-llegamos .contenedor-texto .ventana {
-    height: 70vh;
+    height: 65vh;
     margin-right: 5rem;
-    background-color: rgba(43, 129, 204, 0.466);
     margin-left: auto;
     margin-right: auto;
+    margin-top: -2rem;
   }
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana {
-    outline: 5px solid brown;
     width: 80vw;
     height: 60vh;
     text-align: center;
@@ -533,7 +529,6 @@
     margin-left: auto;
   }
   .conteiner-llegamos .contenedor-texto .ventana .texto-ventana .sub-titulo {
-    outline: 5px solid red;
     width: 35vw;
     font-size: 11px;
   }
@@ -541,16 +536,13 @@
     font-size: 2.5vw;
   }
   .conteiner-llegamos .contenedor-foto {
-    outline: 5px solid yellow;
     margin-bottom: -10rem;
     width: 90vw;
   }
   .conteiner-llegamos .contenedor-foto .fotos-llegamos {
-    outline: 3px solid rgb(145, 79, 21);
     margin-top: 5rem;
   }
   .conteiner-llegamos .contenedor-foto .fotos-llegamos .img1 {
-    outline: 3px solid red;
     width: 50vw;
     margin-left: auto;
     margin-right: auto;
