@@ -79,12 +79,12 @@
      @media screen and (max-width:450px) {
         display: flex;
         flex-direction: column;
-        outline: 3px solid red;
+       
         width: 90vw;
         margin: auto;
         .obra-principal1{
             .obraFinal1{
-                outline: 3px solid pink;
+                
                 width: 75vw;
                 margin-left: 2rem;
             }
@@ -115,10 +115,26 @@
             width: 28vw;
         }
     }
+
+    @media screen and (max-width:450px) {
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       .obra-principal2{
+        .obraFinal2{
+            width: 75vw;
+        }
+       }
+       .galeria2{
+        margin-left: -8rem;
+        margin-top: -6rem;
+       }
+         
+    }
 }
 
 #flechaArriba{
-    outline: 5px solid red;
+    
   width: 2vw;
     margin-right: auto;
     margin-left: auto;
