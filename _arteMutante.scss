@@ -40,6 +40,15 @@
     
    }
 }
+/* media query video */
+ @media screen and (max-width:450px)  {
+    
+    iframe{
+        width: 80vw;
+        margin-left: -3.5rem;
+    }
+    
+ }
 }
 /* obras horizontales */
 .obra1{

@@ -2,3 +2,15 @@
     text-align: center;
     
 }
+
+@media screen and (max-width: 450px) {
+    .carousel{
+        
+        
+        .carousel-inner{
+            outline: 2px solid salmon;
+            width: 80vw;
+            margin-left: -2rem;
+}
+}
+}
